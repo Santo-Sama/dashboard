@@ -5,7 +5,7 @@ import { register } from 'module';
 import { Register } from './Component/register/register';
 
 export const routes: Routes = [
-    {path: '' , component: Dashboard}
-    {path: 'login' , component: Login}
-    {path: 'register' , component: Register}
+    {path: '' , component: Dashboard},
+    {path: 'login' , component: Login},
+    {path: 'register' , component: Register},
 ];
