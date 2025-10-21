@@ -1,1 +1,16 @@
-<p>dashboard works!</p>
+<mat-drawer-container class="example-container">
+    <!-- SideBar -->
+  <mat-drawer mode="side" opened>
+    <mat-list role="list">
+  <mat-list-item role="listitem" routerLink="pagina1">Pagina 1</mat-list-item>
+  <mat-list-item role="listitem" routerLink="pagina2">Pagina 2</mat-list-item>
+  <mat-list-item role="listitem" routerLink="pagina3">Pagina 3</mat-list-item>
+</mat-list>
+    <!-- Pagine -->
+  </mat-drawer>
+  <mat-drawer-content>
+
+    <router-outlet></router-outlet>
+    
+  </mat-drawer-content>
+</mat-drawer-container>
